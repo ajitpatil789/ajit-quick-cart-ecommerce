@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="Quick cart.png" alt="" class="logo" width="150px" /></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></liclass="active">
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag">
+                    <a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <h2>#cart</h2>
+        <p>Add your coupon code & SAVE upto 70%!</p>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%" id="cart-table">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quntity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!--  <tr>
+                <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                <td><img src="img/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                <td><img src="img/products/f2.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                <td><img src="img/products/f3.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr> -->
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="card-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><Strong>Total</Strong></td>
+                    <td><Strong>$ 335</Strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <a href="index.html"><img src="Quick cart.png" alt="" class="logo" width="150px" /></a>
+            <p>
+                <strong>Address: </strong>562 Wellington Road, street 32, San
+                francisco
+            </p>
+            <p><strong>Phone: </strong>+123 456 7890</p>
+            <p><strong>Hours: </strong> 10:00am - 6:00pm, Mon -Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="./about.html">About us</a>
+            <a href="shop.html">Our Services</a>
+            <a href="contact.html">Privacy Policy</a>
+            <a href="blog.html">Affiliate Program</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="cart.html">Track My Order</a>
+            <a href="contact.html">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google play</p>
+            <div class="row">
+                <a href="#"><img src="./img/pay/app.jpg" alt="app-store" /></a>
+                <a href="#"><img src="./img/pay/play.jpg" alt="play-store" /></a>
+            </div>
+            <p>Secure Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="payment" />
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025, Ajit Patil - Ecommerce Website. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        window.onload = function () {
+            // Get the cart from localStorage
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartItemsContainer = document.getElementById('cart-items');
+            const cartTotalContainer = document.getElementById('subtotal').querySelector('table');
+
+            if (cart.length === 0) {
+                cartItemsContainer.innerHTML = '<tr><td colspan="6">Your cart is empty</td></tr>';
+                cartTotalContainer.innerHTML = '<tr><td colspan="2">Total: $0</td></tr>';
+                return;
+            }
+
+            // Loop through each cart item and display it in the table
+            cartItemsContainer.innerHTML = ''; // Clear the existing table rows
+            cart.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+            <td><a href="#" class="remove-item" data-product-id="${item.id}"><i class="fa-regular fa-circle-xmark"></i></a></td>
+            <td><img src="${item.image}" alt="${item.name}"></td>
+            <td>${item.name}</td>
+            <td>$${item.price}</td>
+            <td><input type="number" value="${item.quantity}" min="1" class="update-quantity" data-product-id="${item.id}"></td>
+            <td>$${(item.price * item.quantity).toFixed(2)}</td>
+        `;
+                cartItemsContainer.appendChild(row);
+            });
+
+            // Recalculate the total price
+            updateCartTotal(cart);
+
+            // Add event listeners for quantity change
+            const quantityInputs = document.querySelectorAll('.update-quantity');
+            quantityInputs.forEach(input => {
+                input.addEventListener('input', function () {
+                    const productId = this.getAttribute('data-product-id');
+                    const newQuantity = parseInt(this.value);
+                    updateCartQuantity(productId, newQuantity);
+                });
+            });
+
+            // Add event listener for remove item
+            const removeButtons = document.querySelectorAll('.remove-item');
+            removeButtons.forEach(button => {
+                button.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const productId = this.getAttribute('data-product-id');
+                    removeItemFromCart(productId);
+                });
+            });
+        }
+
+        // Function to update the cart total
+        function updateCartTotal(cart) {
+            let subtotal = 0;
+            cart.forEach(item => {
+                subtotal += item.price * item.quantity;
+            });
+
+            const shipping = 0; // Add shipping fee if applicable
+            const total = subtotal + shipping;
+
+            // Update the cart totals in the HTML
+            const cartTotalContainer = document.getElementById('subtotal').querySelector('table');
+            cartTotalContainer.innerHTML = `
+        <tr><td>Cart Subtotal</td><td>$${subtotal.toFixed(2)}</td></tr>
+        <tr><td>Shipping</td><td>Free</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>$${total.toFixed(2)}</strong></td></tr>
+    `;
+        }
+
+
+        function updateCartQuantity(productId, newQuantity) {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const product = cart.find(item => item.id === productId);
+            if (product) {
+                product.quantity = newQuantity;
+                localStorage.setItem('cart', JSON.stringify(cart));
+                location.reload(); // Reload the page to reflect the updated quantity
+            }
+        }
+
+
+        function removeItemFromCart(productId) {
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            cart = cart.filter(item => item.id !== productId);
+            localStorage.setItem('cart', JSON.stringify(cart));
+            location.reload(); // Reload the page to reflect the updated cart
+        }
+        const couponButton = document.querySelector('#coupon button');
+        couponButton.addEventListener('click', function () {
+            const couponInput = document.querySelector('#coupon input').value;
+            let discount = 0;
+            if (couponInput === "2025") { // Sample coupon logic
+                discount = 0.10; // 10% off
+            }
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            updateCartTotalWithDiscount(cart, discount);
+        });
+
+        function updateCartTotalWithDiscount(cart, discount) {
+            let subtotal = 0;
+            cart.forEach(item => {
+                subtotal += item.price * item.quantity;
+            });
+
+            const shipping = 0;
+            const total = subtotal + shipping;
+            const discountedTotal = total - (total * discount);
+
+            // Update the cart totals in the HTML
+            const cartTotalContainer = document.getElementById('subtotal').querySelector('table');
+            cartTotalContainer.innerHTML = `
+        <tr><td>Cart Subtotal</td><td>$${subtotal.toFixed(2)}</td></tr>
+        <tr><td>Shipping</td><td>Free</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>$${discountedTotal.toFixed(2)}</strong></td></tr>
+    `;
+        }
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
